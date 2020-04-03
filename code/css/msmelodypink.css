@@ -1,0 +1,288 @@
+/* Typography */
+
+h1 {
+    font-size: 2vmin;
+    color: black;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 2vmin;
+    color: white;
+    font-weight: 100;
+}
+
+
+body {
+    font-size: 1vm;
+    font-family: monospace;
+    color: white;
+}
+
+
+footer {
+    color: white;
+    font-size: 11px;
+}
+
+/* Style */
+
+html {
+    height: 100%;
+}
+
+body {
+
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    position: relative;
+
+    /* border-color: 5px solid hotpink; */
+
+}
+
+object {
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+}
+
+figure {
+    display: block;
+    float: left;
+    clear: both;
+    width: 60%;
+    height: 40%;
+    /*   border: 10px solid white; */
+    padding 20px;
+
+}
+
+figcaption {
+    display: inline-block;
+    float: left;
+
+    width: 40%;
+    height: 40%;
+    /*  border: 1px solid red;*/
+    clear: both;
+    margin: 0px;
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+}
+
+.caption {
+    width: 400px;
+    padding-left: 15px;
+
+
+}
+
+nav {
+    text-align: center;
+
+    /*   border: 1px solid red; */
+}
+
+.white a {
+    text-decoration: none;
+    color: white;
+}
+
+.black a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 11px;
+
+    /*  border: 1px solid black;*/
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    text-align: center;
+}
+
+.mixedmedia {
+    width: 150px;
+    float: left;
+    clear: right;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+footer {
+    clear: left;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+
+
+    /*    border: solid 2px hotpink;*/
+    background-color: transparent;
+}
+
+
+.leftcolumn {
+    height: 80%;
+    width: 40%;
+    /*    border: 1px solid red;*/
+    float: left;
+    padding: 20px;
+
+}
+
+.rightcolumn {
+    height: 80%;
+    width: 40%;
+    /*   border: 1px solid blue;*/
+    float: right;
+    padding: 20px;
+
+}
+
+.insideright {
+    height: 90%;
+    width: 165px;
+    /*    border: 1px solid hotpink;*/
+    float: left;
+
+}
+
+
+.top {
+    height: 30%;
+    padding: 10px;
+
+    /*    border: solid 1px yellow;*/
+
+}
+
+.center {
+    height: 30%;
+    padding: 10px;
+
+    /*    border: solid 1px hotpink;*/
+}
+
+.middle {
+    height: 86%;
+    padding: 20px;
+    padding-top: 100px;
+
+
+    /*    border: solid 1px green;*/
+}
+
+.bottom {
+    height: 33%;
+    padding: 10px;
+
+    /*     border: solid 1px aqua;*/
+}
+
+#profile {
+    height: 60%;
+    border-radius: 12%;
+    float: right;
+    
+    
+
+}
+
+.leftfloat {
+    float: left;
+}
+
+.rightfloat {
+    float: right;
+}
+
+.thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.thumbnail img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+.socialmedia {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    padding: 0px 0px;
+}
+
+.apps {
+    float: right;
+    height: 115px;
+    width: auto;
+    border: 0px;
+
+}
+
+.brands {
+    width: 215px;
+    height: auto;
+    padding: 10px;
+    float: left;
+    clear: both;
+}
+
+.print {
+    float: left;
+    clear: both;
+}
+
+.polaroid {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+.edges {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+.mrlogo {
+    width: 30%;
+}
+
+.melodylogo{
+    width: 70%;
+}
