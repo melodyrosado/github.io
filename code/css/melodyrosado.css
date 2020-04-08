@@ -171,7 +171,6 @@ footer {
     width: 165px;
     /*    border: 1px solid hotpink;*/
     float: left;
-
 }
 
 
@@ -194,8 +193,11 @@ footer {
     height: 86%;
     padding: 20px;
     padding-top: 100px;
-
-
+    /*    border: solid 1px green;*/
+}
+    
+.middlebottom {
+    height: 86%;
     /*    border: solid 1px green;*/
 }
 
@@ -207,12 +209,9 @@ footer {
 }
 
 #profile {
-    height: 60%;
+    height: 40%;
     border-radius: 12%;
     float: right;
-    
-    
-
 }
 
 .leftfloat {
