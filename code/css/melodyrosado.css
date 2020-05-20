@@ -1,287 +1,356 @@
 /* Typography */
 
-h1 {
-    font-size: 2vmin;
-    color: black;
-    font-weight: 100;
-}
-
-h2 {
-    font-size: 2vmin;
-    color: white;
-    font-weight: 100;
-}
-
-
 body {
-    font-size: 1vm;
+    font-size: .86rem;
     font-family: monospace;
     color: white;
 }
 
-
-footer {
-    color: white;
-    font-size: 11px;
+header {
+    text-align: center;
 }
 
-/* Style */
+header a {
+    text-decoration: none;
+}
 
-html {
-    height: 100%;
+h1 {
+    font-size: 1.29rem;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#nav1 a,
+a:visited,
+a:link {
+    font-size: .86rem;
+    text-decoration: none;
+    color: white;
+}
+
+#nav1Black a,
+a:visited,
+a:link {
+    font-size: .86rem;
+    text-decoration: none;
+    color: black;
+}
+
+#nav1 a:hover {
+    color: red;
+    font-size: .86rem;
+    font-weight: 500;
+}
+
+#nav1Black a:hover {
+    color: red;
+    font-size: .86rem;
+    font-weight: 500;
+}
+
+#nav2 i {
+    font-size: .86rem;
+    text-decoration: none;
+    color: white;
+}
+
+#nav2Black i {
+    font-size: .86rem;
+    text-decoration: none;
+    color: black;
+}
+
+#aboutIcons i {
+    font-size: 3.2rem;
+}
+
+#visualMediaIcons i {
+    font-size: 3.2rem;
+    color: white;
+}
+
+#digitalSkillsIcons i {
+    font-size: 3.2rem;
+    color: white;
+}
+
+#legal i {
+    font-size: .42rem;
+}
+
+footer {
+    text-align: center
+}
+
+.whiteText {
+    color: white;
+}
+
+.blackText {
+    color: black;
+}
+
+/* background */
+
+* {
+    box-sizing: border-box;
 }
 
 body {
+    background-color: black;
+    color: white;
+}
 
-    height: 100%;
+#wallpaper {
     width: 100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
     position: relative;
-
     /* border-color: 5px solid hotpink; */
-
 }
 
-object {
-    height: 250px;
-    width: 400px;
-    padding: 10px;
-}
-
-figure {
-    display: block;
-    float: left;
-    clear: both;
-    width: 60%;
-    height: 40%;
-    /*   border: 10px solid white; */
-    padding 20px;
-
-}
-
-figcaption {
-    display: inline-block;
-    float: left;
-
-    width: 40%;
-    height: 40%;
-    /*  border: 1px solid red;*/
-    clear: both;
-    margin: 0px;
-
-}
-
-button {
-    background-color: transparent;
-    border: none;
-    padding: 0px;
-}
-
-.caption {
-    width: 400px;
-    padding-left: 15px;
-
-
-}
-
-nav {
-    text-align: center;
-
-    /*   border: 1px solid red; */
-}
-
-.white a {
-    text-decoration: none;
-    color: white;
-}
-
-.black a {
-    text-decoration: none;
-    color: black;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 11px;
-
-    /*  border: 1px solid black;*/
-}
-
-li {
-    display: inline;
-    padding: 5px;
-    text-align: center;
-}
-
-.mixedmedia {
-    width: 150px;
-    float: left;
-    clear: right;
-    display: inline-block;
-    max-width: 100%;
+#selfie img {
+    max-width: 23%;
     height: auto;
-
+    border-radius: 6%;
+    float: right;
+    margin-right: 20px;
 }
 
+#logo1 img {
+    height: 100%;
+    max-width: 20%;
+}
 
-footer {
-    clear: left;
-    text-align: center;
-    position: fixed;
-    bottom: 0%;
-    margin: auto;
+#logo2 img {
+    height: 100%;
     width: 100%;
-    padding: 10px;
-
-
-    /*    border: solid 2px hotpink;*/
-    background-color: transparent;
 }
 
-
-.leftcolumn {
-    height: 80%;
-    width: 40%;
-    /*    border: 1px solid red;*/
-    float: left;
-    padding: 20px;
-
+#monogram img {
+    height: 5.36rem;
+    width: 5.36rem;
 }
 
-.rightcolumn {
-    height: 80%;
-    width: 40%;
-    /*   border: 1px solid blue;*/
-    float: right;
-    padding: 20px;
-
+#designMonogram img {
+    height: 5.36rem;
+    width: 5.36rem;
 }
 
-.insideright {
-    height: 90%;
-    width: 165px;
-    /*    border: 1px solid hotpink;*/
-    float: left;
+#galleryBrands img {
+    max-width: 16rem;
 }
 
-
-.top {
-    height: 30%;
-    padding: 10px;
-
-    /*    border: solid 1px yellow;*/
-
+iframe {
+    height: 300px;
+    width: 250px;
 }
 
-.center {
-    height: 30%;
-    padding: 10px;
-
-    /*    border: solid 1px hotpink;*/
-}
-
-.middle {
-    height: 86%;
-    padding: 20px;
-    padding-top: 100px;
-    /*    border: solid 1px green;*/
-}
-    
-.middlebottom {
-    height: 86%;
-    /*    border: solid 1px green;*/
-}
-
-.bottom {
-    height: 33%;
-    padding: 10px;
-
-    /*     border: solid 1px aqua;*/
-}
-
-#profile {
-    height: 40%;
-    border-radius: 12%;
-    float: right;
-}
-
-.leftfloat {
-    float: left;
-}
-
-.rightfloat {
-    float: right;
-}
-
-.thumbnail {
+#galleryMixedMedia img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 150px;
+    max-width: 10.71rem;
 }
 
-.thumbnail img:hover {
+#galleryMixedMedia img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-
-.socialmedia {
-    width: 25px;
-    height: 25px;
-    background-color: transparent;
-    border: none;
-    padding: 0px 0px;
-}
-
-.apps {
-    float: right;
-    height: 115px;
-    width: auto;
-    border: 0px;
-
-}
-
-.brands {
-    width: 215px;
-    height: auto;
-    padding: 10px;
-    float: left;
-    clear: both;
-}
-
-.print {
-    float: left;
-    clear: both;
-}
-
-.polaroid {
-    width: 50%;
+#galleryDigitalSkills img {
+    width: 100%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     padding: 10px 20px;
-
 }
 
-.edges {
+/* box model */
+
+#nav1Black {
+    padding: 10px;
+}
+
+#nav1Black a {
+    padding-right: 10px;
+}
+
+#nav1 {
+    padding: 10px;
+}
+
+#nav1 a {
+    padding-right: 10px;
+}
+
+#logo1 figure, figcaption {
     text-align: center;
-    padding: 10px 20px;
 }
 
-
-.mrlogo {
-    width: 30%;
+#logo2,
+#aboutMe {
+    padding-left: 20px;
+    width: 250px;
+    text-align: justify;
 }
 
-.melodylogo{
-    width: 70%;
+#aboutIcons, #visualMediaIcons {
+    width: 500px;
+}
+
+#monogram {
+    display: flex;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: flex-end;
+}
+
+#designMonogram {
+    display: flex;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+}
+
+#visualMediaIcons, #digitalSkillsIcons {
+    display: inline-grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: flex-end;
+}
+
+#galleryBrands,
+#galleryMixedMedia,
+#galleryTypography,
+#galleryDigitalSkills {
+    height: 825px;
+    padding-top: 25px;
+    display: grid;
+    justify-content: center;
+}
+
+#galleryBrands,
+#galleryMixedMedia,
+#galleryTypography,
+#galleryDigitalSkills figure {
+    display: grid;
+    justify-content: center;
+    width: 200px;
+}
+
+#galleryMixedMedia {
+    width: 175px;
+    padding: 5px;
+    color: hotpink;
+}
+
+#galleryTypography {
+    width: 300px;
+    padding: 10px;
+}
+
+#galleryBrands figcaption {
+    width: 250px;
+    padding-top: 10px;
+    padding-left: 1px;
+    color: aqua;
+}
+
+#galleryDigitalSkills figcaption {
+    width: 200px;
+    color: aqua;
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+}
+
+/* columns */
+
+header {
+    display: grid;
+    grid-template-columns: 100%;
+    padding-bottom: 50px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    height: 56rem;
+}
+
+#logo1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+#logo2 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+#aboutMe {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#aboutIcons {
+    display: inline-grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: flex-end;
+}
+
+#selfie {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#aboutIcons {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#galleryBrands,
+#galleryMixedMedia,
+#galleryTypography,
+#galleryDigitalSkills {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#monogram {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#designMonogram {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#galleryBrands,
+#galleryMixedMedia,
+#galleryTypography,
+#galleryDigitalSkills {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#visualMediaIcons, #digitalSkillsIcons {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 100%;
 }
