@@ -170,7 +170,6 @@ iframe {
     width: 20rem;
 }
 
-
 #galleryMixedMedia img {
     border: .071rem solid #ddd;
     border-radius: .29rem;
@@ -248,7 +247,7 @@ figcaption {
 #galleryMixedMedia,
 #galleryTypography,
 #galleryDigitalSkills {
-    height: 28.6rem;
+    height: 8.6rem;
     display: grid;
     justify-content: center;
 }
@@ -279,6 +278,7 @@ figcaption {
     padding-top: .714rem;
     padding-left: .071rem;
     color: aqua;
+    text-align: right;
 }
 
 #galleryDigitalSkills figcaption {
