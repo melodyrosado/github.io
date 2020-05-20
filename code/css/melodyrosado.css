@@ -100,10 +100,14 @@ footer {
 
 /* background */
 
+
 * {
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
 body {
     background-color: black;
     color: white;
@@ -117,7 +121,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: black;
     position: relative;
     /* border-color: .36rem solid hotpink; */
 }
@@ -278,7 +281,6 @@ figcaption {
     padding-top: .714rem;
     padding-left: .071rem;
     color: aqua;
-    text-align: right;
 }
 
 #galleryDigitalSkills figcaption {
