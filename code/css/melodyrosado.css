@@ -27,7 +27,6 @@ h2 {
 #nav1 a,
 a:visited,
 a:link {
-    font-size: .86rem;
     text-decoration: none;
     color: white;
 }
@@ -35,21 +34,16 @@ a:link {
 #nav1Black a,
 a:visited,
 a:link {
-    font-size: .86rem;
     text-decoration: none;
     color: black;
 }
 
 #nav1 a:hover {
     color: red;
-    font-size: .86rem;
-    font-weight: 500;
 }
 
 #nav1Black a:hover {
     color: red;
-    font-size: .86rem;
-    font-weight: 500;
 }
 
 #nav2 i {
@@ -100,29 +94,25 @@ footer {
 
 /* background */
 
-
 * {
     box-sizing: border-box;
 }
 
-html {
-    height: 100%;
-}
-body {
-    background-color: black;
-    color: white;
-}
-
-#wallpaper {
-    width: 100%;
+html #wallpaper {
+    max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    /* border-color: .36rem solid hotpink; */
+    background-attachment: fixed;
+    background-origin: content-box;
+}
+
+body {
+    background-color: black;
+    color: white;
 }
 
 #selfie img {
@@ -148,29 +138,9 @@ body {
     width: 5.36rem;
 }
 
-#designMonogram img {
-    height: 5.36rem;
-    width: 5.36rem;
-}
-
 #galleryBrands img {
-    max-width: 20rem;
-}
-
-iframe {
-    height: 15rem;
-    width: 20rem;
-}
-
-.pdf p,
-.pdf a {
-    color: orange;
-    width: 20rem;
-}
-
-.pdf a:hover {
-    color: red;
-    width: 20rem;
+    max-width: 11rem;
+    border-radius: 3%
 }
 
 #galleryMixedMedia img {
@@ -192,27 +162,32 @@ iframe {
     padding: .714rem 1.43rem;
 }
 
+iframe {
+    height: 15rem;
+    width: 20rem;
+}
+
+.pdf p,
+.pdf a {
+    color: orange;
+    width: 20rem;
+}
+
+.pdf a:hover {
+    color: red;
+    width: 20rem;
+}
+
 /* box model */
 
+#nav1,
 #nav1Black {
-    padding: .714rem;
+    padding: .57rem;
 }
 
-#nav1Black a {
-    padding-right: .714rem;
-}
-
-#nav1 {
-    padding: .714rem;
-}
-
+#nav1Black,
 #nav1 a {
     padding-right: .714rem;
-}
-
-#logo1 figure,
-figcaption {
-    text-align: center;
 }
 
 #profile {
@@ -221,76 +196,68 @@ figcaption {
     text-align: justify;
 }
 
+#logo1 figure {
+    width: 400px;
+    text-align: center;
+}
+
+#logo1 figcaption {
+    width: 400px;
+    text-align: center;
+}
+
 #aboutIcons,
 #visualMediaIcons,
+#digitalSkillsIcons,
 #contactIcons {
     width: 20rem;
 }
 
 #monogram {
     display: flex;
-    grid-template-columns: 33% 33% 33%;
-    justify-content: flex-end;
-}
-
-#designMonogram {
-    display: flex;
-    grid-template-columns: 33% 33% 33%;
-    justify-content: center;
-}
-
-#visualMediaIcons,
-#digitalSkillsIcons {
-    display: inline-grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    justify-content: flex-end;
-}
-
-#galleryBrands,
-#galleryMixedMedia,
-#galleryTypography,
-#galleryDigitalSkills {
-    height: 8.6rem;
-    display: grid;
-    justify-content: center;
-}
-
-#galleryBrands,
-#galleryMixedMedia,
-#galleryTypography,
-#galleryDigitalSkills figure {
-    display: grid;
-    justify-content: center;
-    width: 36.71rem;
-}
-
-#galleryMixedMedia figcaption {
-    width: 12rem;
-    padding: .36rem;
-    color: orange;
-    text-align: left;
+    justify-content: flex-start;
 }
 
 #galleryTypography {
     width: 31.42rem;
-    padding: .714rem;
 }
 
-#galleryBrands figcaption {
-    width: 17.86rem;
-    padding-top: .714rem;
-    padding-left: .071rem;
-    color: aqua;
+#galleryDigitalSkills figure {
+    width: 500px;
+    text-align: center;
 }
 
 #galleryDigitalSkills figcaption {
-    width: 35.71rem;
-    color: aqua;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    color: yellow;
+}
+
+#galleryMixedMedia figure {
+    display: flex;
+    width: 16rem;
+    text-align: center;
+}
+
+
+#galleryMixedMedia figcaption {
+    width: 30rem;
+    padding: .36rem;
+    color: lightseagreen;
+    text-align: left;
+}
+
+#galleryBrands figcaption {
+    width: 10.86rem;
+    padding-top: .714rem;
+    padding-left: .071rem;
+    color: hotpink;
     text-align: center;
 }
 
 footer {
-    padding: .714rem;
+    padding: .571rem;
 }
 
 /* columns */
@@ -298,14 +265,42 @@ footer {
 header {
     display: grid;
     grid-template-columns: 100%;
-    padding-bottom: 3.57rem;
 }
 
 main {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 16% 16% 16% 16% 16% 16%;
-    height: 40rem;
+    height: 35rem;
+}
+
+#aboutIcons {
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: flex-start;
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+
+#visualMediaIcons,
+#digitalSkillsIcons {
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: flex-start;
+}
+
+#contactIcons {
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: flex-start;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0;
 }
 
 #logo1 {
@@ -323,33 +318,12 @@ main {
     grid-row-start: 2;
 }
 
-#aboutIcons {
-    display: inline-grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    justify-content: flex-end;
-    grid-column-start: 2;
-    grid-row-start: 5;
-}
-
 #selfie {
     grid-column-start: 4;
     grid-row-start: 4;
 }
 
-#contactIcons {
-    display: inline-grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    justify-content: flex-end;
-    grid-column-start: 3;
-    grid-row-start: 3;
-}
-
 #monogram {
-    grid-column-start: 2;
-    grid-row-start: 5;
-}
-
-#designMonogram {
     grid-column-start: 2;
     grid-row-start: 5;
 }
@@ -360,16 +334,10 @@ main {
 #galleryDigitalSkills {
     grid-column-start: 3;
     grid-row-start: 1;
-
 }
 
 #visualMediaIcons,
 #digitalSkillsIcons {
     grid-column-start: 2;
     grid-row-start: 5;
-}
-
-footer {
-    display: grid;
-    grid-template-columns: 100%;
 }
