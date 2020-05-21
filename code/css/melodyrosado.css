@@ -180,13 +180,12 @@ iframe {
 
 /* box model */
 
-#nav1,
-#nav1Black {
+#nav1 #nav1Black {
     padding: .57rem;
+
 }
 
-#nav1Black,
-#nav1 a {
+#nav1# nav1Black a {
     padding-right: .714rem;
 }
 
