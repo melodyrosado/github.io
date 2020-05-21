@@ -26,16 +26,20 @@ h2 {
 
 #nav1 a,
 a:visited,
-a:link {
+a:link header {
     text-decoration: none;
     color: white;
+    padding-top: 10px;
+    
+    padding-bottom: 100px;
 }
 
 #nav1Black a,
 a:visited,
-a:link {
+a:link header {
     text-decoration: none;
     color: black;
+    background-color: aqua;
 }
 
 #nav1 a:hover {
@@ -46,13 +50,13 @@ a:link {
     color: red;
 }
 
-#nav2 i {
+#nav2 a {
     font-size: .86rem;
     text-decoration: none;
     color: white;
 }
 
-#nav2Black i {
+#nav2Black a {
     font-size: .86rem;
     text-decoration: none;
     color: black;
@@ -74,6 +78,7 @@ a:link {
 
 #contactIcons i {
     font-size: 3.2rem;
+    color: black;
 }
 
 #legal i {
@@ -106,7 +111,7 @@ html #wallpaper {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: s scroll;
     background-origin: content-box;
 }
 
@@ -125,9 +130,7 @@ body {
 
 #logo1 img {
     height: 100%;
-    width: 50%;
-  
-
+    width: 33%;
 }
 
 #logo2 img {
@@ -142,7 +145,7 @@ body {
 
 #galleryBrands img {
     max-width: 11rem;
-    border-radius: 3%
+    border-radius: 3%;
 }
 
 #galleryMixedMedia img {
@@ -150,6 +153,7 @@ body {
     border-radius: .29rem;
     padding: .36rem;
     max-width: 10.71rem;
+    
 }
 
 #galleryMixedMedia img:hover {
@@ -164,15 +168,15 @@ body {
     padding: .714rem 1.43rem;
 }
 
-iframe {
-    height: 15rem;
-    width: 20rem;
+#pdf, img {
+    height: 100%;
+    width: 45%;
 }
 
 .pdf p,
 .pdf a {
     color: orange;
-    width: 20rem;
+    width: 13rem;
 }
 
 .pdf a:hover {
@@ -184,7 +188,6 @@ iframe {
 
 #nav1 #nav1Black {
     padding: .57rem;
-
 }
 
 #nav1# nav1Black a {
@@ -237,13 +240,13 @@ iframe {
 
 #galleryMixedMedia figure {
     display: flex;
-    width: 16rem;
-    text-align: center;
+    width: 21rem;
+    text-align: left;
 }
 
 
 #galleryMixedMedia figcaption {
-    width: 30rem;
+    width: 425px;
     padding: .36rem;
     color: lightseagreen;
     text-align: left;
@@ -270,9 +273,11 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 16% 16% 16% 16% 16% 16%;
-    height: 35rem;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11%;
+    height: 45.75em;
+    width: 72em;
+    
 }
 
 #aboutIcons {
@@ -329,12 +334,33 @@ footer {
     grid-row-start: 5;
 }
 
-#galleryBrands,
-#galleryMixedMedia,
-#galleryTypography,
 #galleryDigitalSkills {
-    grid-column-start: 3;
-    grid-row-start: 1;
+    grid-column-start: 5;
+    background-color: yellow;
+    justify-content: center;
+}
+
+#galleryMixedMedia {
+    grid-column-start: 5;
+    background-color: yellow;
+    justify-content: center;
+}
+
+#galleryTypography {
+     grid-column-start: 5;
+    background-color: yellow;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#galleryBrands {
+    display: grid;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 11;
+    background-color: yellow;
+    justify-content: center;    
 }
 
 #visualMediaIcons,
