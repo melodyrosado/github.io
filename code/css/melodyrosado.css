@@ -125,8 +125,8 @@ body {
 
 #logo1 img {
     height: 100%;
-    max-width: 100%;
-    border-radius: 60%;
+    width: 50%;
+  
 
 }
 
@@ -198,12 +198,12 @@ iframe {
 }
 
 #logo1 figure {
-    width: 400px;
+    width: 28.6rem;
     text-align: center;
 }
 
 #logo1 figcaption {
-    width: 400px;
+    width: 28.6rem;
     text-align: center;
 }
 
