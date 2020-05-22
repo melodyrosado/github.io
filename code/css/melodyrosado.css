@@ -4,14 +4,17 @@ body {
     font-size: .86rem;
     font-family: monospace;
     color: white;
+    height: 1024xpx;
 }
 
 header {
     text-align: center;
+    padding: 1rem;
 }
 
 header a {
     text-decoration: none;
+    margin-right: 5px;
 }
 
 h1 {
@@ -114,7 +117,7 @@ html #wallpaper {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: s scroll;
+    background-attachment: scroll;
     background-origin: content-box;
 }
 
@@ -124,7 +127,7 @@ body {
 }
 
 #selfie img {
-    width: 40%;
+    width: 80%;
     height: auto;
     border-radius: 6%;
     float: right;
@@ -147,7 +150,7 @@ body {
 }
 
 #galleryBrands img {
-    width: 11rem;
+    width: 9rem;
     border-radius: 3%;
 }
 
@@ -156,7 +159,6 @@ body {
     border-radius: .29rem;
     padding: .36rem;
     width: 10.71rem;
-
 }
 
 #galleryMixedMedia img:hover {
@@ -249,7 +251,6 @@ img {
     text-align: left;
 }
 
-
 #galleryMixedMedia figcaption {
     height: 225px;
     padding: 25px;
@@ -274,16 +275,12 @@ footer {
 header {
     display: grid;
     grid-template-columns: 100%;
-    padding: 25px;
 }
 
 main {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11%;
-    height: 45.75em;
-    width: 72em;
-
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    grid-template-rows: 33.33% 33.33%;
 }
 
 #aboutIcons {
@@ -291,7 +288,7 @@ main {
     grid-template-columns: 25% 25% 25%;
     justify-content: flex-start;
     grid-column-start: 2;
-    grid-row-start: 7;
+    grid-row-start: 3;
 }
 
 #visualMediaIcons,
@@ -303,10 +300,11 @@ main {
 
 #contactIcons {
     display: inline-grid;
-    grid-template-columns: 25% 25% 25%;;
+    grid-template-columns: 25% 25% 25%;
+    ;
     justify-content: flex-start;
     grid-column-start: 4;
-    grid-row-start: 4;
+    grid-row-start: 2;
 }
 
 footer {
@@ -332,41 +330,40 @@ footer {
 
 #selfie {
     grid-column-start: 5;
-    grid-row-start: 5;
+    grid-row-start: 3;
+
 }
 
 #monogram {
     grid-column-start: 2;
-    grid-row-start: 7;
+    grid-row-start: 3;
 }
 
 #galleryDigitalSkills {
-    grid-column-start: 5;
+    grid-column-start: 4;
     justify-content: center;
 }
 
 #galleryMixedMedia {
-    grid-column-start: 5;
+    grid-column-start: 4;
     justify-content: center;
 }
 
 #galleryTypography {
-    grid-column-start: 5;
+    grid-column-start: 4;
     justify-content: center;
     padding-top: 50px;
 }
 
 #galleryBrands {
     display: grid;
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 11;
+    grid-column-start: 4;
+    grid-row-start: 1;
     justify-content: center;
 }
 
 #visualMediaIcons,
 #digitalSkillsIcons {
     grid-column-start: 2;
-    grid-row-start: 7;
+    grid-row-start: 3;
 }
