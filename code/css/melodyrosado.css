@@ -8,10 +8,12 @@ body {
 
 header {
     text-align: center;
+    padding: 1rem;
 }
 
 header a {
     text-decoration: none;
+    margin-right: 5px;
 }
 
 h1 {
@@ -121,13 +123,14 @@ html #wallpaper {
 body {
     background-color: black;
     color: white;
+    height: 45.75em;
+    width: 72em;
 }
 
 #selfie img {
-    width: 40%;
+    width: 70%;
     height: auto;
     border-radius: 6%;
-    float: right;
     margin-right: 1.43rem;
 }
 
@@ -278,19 +281,16 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11%;
-    height: 45.75em;
-    width: 72em;
-
+    grid-template-columns: 204px 204px 204px 204px 204px ;
+    grid-template-rows: 153px 153px 153px 153px 153px;
 }
 
 #aboutIcons {
     display: inline-grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    justify-content: flex-start;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: flex-end;
     grid-column-start: 2;
-    grid-row-start: 7;
+    grid-row-start: 4;
 }
 
 #visualMediaIcons,
@@ -302,10 +302,11 @@ main {
 
 #contactIcons {
     display: inline-grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25%;
+    ;
     justify-content: flex-start;
-    grid-column-start: 3;
-    grid-row-start: 3;
+    grid-column-start: 4;
+    grid-row-start: 4;
 }
 
 footer {
@@ -316,7 +317,7 @@ footer {
 
 #logo1 {
     grid-column-start: 1;
-    grid-row-start: 4;
+    grid-row-start: 2;
 }
 
 #logo2 {
@@ -330,8 +331,9 @@ footer {
 }
 
 #selfie {
-    grid-column-start: 5;
-    grid-row-start: 6;
+    grid-column-start: 6;
+    grid-row-start: 3;
+    
 }
 
 #monogram {
