@@ -204,7 +204,6 @@
      #visualMediaIcons,
      #digitalSkillsIcons i {
          color: white;
-         padding-left: 50px;
      }
 
      #contactIcons i {
@@ -219,11 +218,19 @@
      #contactIcons i {
          font-size: 30px;
      }
+     
+     #digitalSkillsIcons i {
+         font-size: 30px;
+     }
 
      #visualMediaIcons,
      #digitalSkillsIcons {
          display: block;
          grid-template-columns: 100%;
+         padding-left: 20px;
+         padding-top: 100px;
+         
+    
      }
 
      #contactIcons,
