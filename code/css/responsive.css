@@ -203,7 +203,6 @@
 
      #visualMediaIcons,
      #digitalSkillsIcons i {
-         color: white;
      }
 
      #contactIcons i {
@@ -229,8 +228,9 @@
          grid-template-columns: 100%;
          padding-left: 20px;
          padding-top: 100px;
-         
-    
+         width: 200px;
+         height: 50px;
+         background-color: yellow;
      }
 
      #contactIcons,
