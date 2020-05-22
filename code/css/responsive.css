@@ -1,0 +1,284 @@
+ /* ==== CSS that applies to both layouts ====*/
+
+ img {
+     max-width: 100%;
+
+ }
+
+ /* CSS for Small Devices / Smartphone */
+
+ @media screen and (max-width: 480px) {
+
+     #nav1,
+     #nav1Black a {
+         display: block;
+         grid-template-columns: 100%;
+         padding: 1px;
+         font-size: 12px;
+     }
+
+     main {
+         display: grid;
+         grid-template-columns: 50% 50%;
+         grid-template-rows: 50% 50%;
+         height: 612px;
+     }
+
+     #logo1,
+     #logo2 {
+         display: grid;
+         grid-template-columns: 100%;
+         grid-column-start: 1;
+         grid-row-start: 1;
+     }
+
+     #aboutMe {
+         grid-column-start: 1;
+         grid-row-start: 2;
+         width: 300px;
+         font-size: px;
+     }
+
+     #aboutMe h2 {
+         font-size: 20px;
+         text-align: left;
+     }
+
+     #selfie {
+         display: grid;
+         grid-template-columns: 100%;
+     }
+
+     #selfie {
+         grid-column-start: 1;
+         grid-row-start: 2;
+         text-align: center
+     }
+     
+     #selfie img {
+         margin-left: 20px; 
+     }
+
+     #logo1 figure {
+         display: grid;
+         grid-column-start: 1;
+         grid-row-start: 1;
+         height: 150px;
+         width: 200px;
+     }
+
+     #logo1 img {
+         height: 50%;
+         width: 50%;
+         float: left;
+     }
+
+     #logo1 figcaption {
+         display: grid;
+         grid-column-start: 1;
+         height: 100px;
+         width: 200px;
+         font-size: 10px;
+     }
+
+     #profile {
+         height: 400px;
+         width: 325px;
+         margin: auto;
+         align-content: center;
+         justify-content: center;
+     }
+
+     #logo2 img {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: auto;
+         height: 100px;
+         width: 250px;
+     }
+
+     #monogram {
+         grid-template-rows: 100%;
+         grid-column-start: 1;
+         grid-row-start: 2;
+         height: 50px;
+         padding-left: 20px;
+     }
+
+     #monogram img {
+         height: 50px;
+         width: 50px;
+     }
+
+     #galleryBrands,
+     #galleryMixedMedia,
+     #galleryTypography,
+     #galleryDigitalSkills {
+         display: grid;
+         grid-column-start: 2;
+         grid-row-start: 1;
+         justify-content: center;
+     }
+
+     #galleryBrands img {
+         width: 6rem;
+         border-radius: 3%;
+     }
+
+     #galleryBrands figcaption {
+         width: 5.86rem;
+         padding-top: .5rem;
+         padding-left: .071rem;
+         color: hotpink;
+         text-align: left;
+         font-size: 12px;
+     }
+
+     #galleryMixedMedia figure {
+         display: flex;
+         height: 100px;
+         width: 150px;
+         text-align: left;
+     }
+
+     #galleryMixedMedia figcaption {
+         height: 50px;
+         width: 50px;
+         padding: 5px;
+         color: lightseagreen;
+         text-align: left;
+         font-size: 6px;
+     }
+
+     #galleryMixedMedia img {
+         border: .071rem solid #ddd;
+         border-radius: .29rem;
+         padding: .36rem;
+         width: 100px;
+         height: 100px;
+     }
+
+     #galleryTypography {
+         display: block;
+         grid-template-columns: 50% 50%;
+     }
+
+     #galleryTypography figure {
+         width: 10.42rem;
+
+     }
+
+     #galleryTypography figcaption {
+         height: 50px;
+         width: 155px;
+         padding-left: 5px;
+         text-align: left;
+         font-size: 9px;
+         justify-content: center;
+     }
+
+     #pdf,
+     img {
+         height: 100%;
+         width: 65%;
+     }
+
+     .pdf p,
+     .pdf a {
+         color: orange;
+         width: 5rem;
+     }
+
+     .pdf a:hover {
+         color: red;
+         width: 20rem;
+     }
+
+     #contactIcons,
+     #aboutIcons {
+         display: grid;
+         grid-template-columns: 10% 10% 10%;
+     }
+
+     #visualMediaIcons,
+     #digitalSkillsIcons i {
+         color: white;
+         padding-left: 50px;
+     }
+
+     #contactIcons i {
+         color: black;
+         padding-left: 50px;
+     }
+
+     #visualMediaIcons i {
+         font-size: 30px;
+     }
+
+     #contactIcons i {
+         font-size: 30px;
+     }
+
+     #visualMediaIcons,
+     #digitalSkillsIcons {
+         display: block;
+         grid-template-columns: 100%;
+     }
+
+     #contactIcons,
+     #aboutIcons i {
+         font-size: 1.2rem;
+         color: black;
+     }
+
+     #visualMediaIcons,
+     #digitalSkillsIcons,
+     #contactIcons {
+         grid-column-start: 1;
+         grid-row-start: 2;
+     }
+
+     #aboutIcons {
+         grid-column-start: 2;
+         grid-row-start: 2;
+         padding-top: 100px;
+     }
+
+     #galleryDigitalSkills img {
+         width: 7rem;
+         background-color: white;
+         box-shadow: 0 .29rem .57rem 0 rgba(0, 0, 0, 0.2), 0 .43rem 1.43rem 0 rgba(0, 0, 0, 0.19);
+         text-align: center;
+         padding: .36rem .71rem;
+     }
+
+     #galleryDigitalSkills figure {
+         width: 200px;
+         text-align: center;
+     }
+
+     #galleryDigitalSkills figcaption {
+         width: 200px;
+         text-align: center;
+         justify-content: center;
+         color: yellow;
+         font-size: 11px;
+     }
+
+     footer,
+     i {
+         font-size: 12px;
+     }
+
+
+
+ }
+
+ /* CSS for medium devices / Tablets */
+
+ @media screen and (min-width: 480px) and (max-width: 778px) {}
+
+ /* CSS for large device/ Computers */
+
+ @media screen and (min-width: 779px) {}
