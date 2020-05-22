@@ -127,7 +127,7 @@ body {
 }
 
 #selfie img {
-    width: 80%;
+    width: 40%;
     height: auto;
     border-radius: 6%;
     float: right;
@@ -331,7 +331,6 @@ footer {
 #selfie {
     grid-column-start: 5;
     grid-row-start: 3;
-
 }
 
 #monogram {
