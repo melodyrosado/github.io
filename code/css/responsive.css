@@ -54,9 +54,9 @@
          grid-row-start: 2;
          text-align: center
      }
-     
+
      #selfie img {
-         margin-left: 20px; 
+         margin-left: 20px;
      }
 
      #logo1 figure {
@@ -202,7 +202,8 @@
      }
 
      #visualMediaIcons,
-     #digitalSkillsIcons i {
+     #digitalSkillsIcons a {
+         text-align: center;
      }
 
      #contactIcons i {
@@ -217,7 +218,7 @@
      #contactIcons i {
          font-size: 30px;
      }
-     
+
      #digitalSkillsIcons i {
          font-size: 30px;
      }
@@ -230,7 +231,6 @@
          padding-top: 100px;
          width: 200px;
          height: 50px;
-         background-color: yellow;
      }
 
      #contactIcons,
@@ -252,25 +252,25 @@
          padding-top: 100px;
      }
 
+     #galleryDigitalSkills figure {
+         width: 10.7rem;
+         text-align: center;
+     }
+
+     #galleryDigitalSkills figcaption {
+         width: 6.7rem;
+         float: inherit;
+         justify-content: center;
+         color: yellow;
+         font-size: .6rem;
+     }
+
      #galleryDigitalSkills img {
          width: 7rem;
          background-color: white;
          box-shadow: 0 .29rem .57rem 0 rgba(0, 0, 0, 0.2), 0 .43rem 1.43rem 0 rgba(0, 0, 0, 0.19);
          text-align: center;
          padding: .36rem .71rem;
-     }
-
-     #galleryDigitalSkills figure {
-         width: 200px;
-         text-align: center;
-     }
-
-     #galleryDigitalSkills figcaption {
-         width: 200px;
-         text-align: center;
-         justify-content: center;
-         color: yellow;
-         font-size: 11px;
      }
 
      footer,
