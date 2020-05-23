@@ -22,18 +22,18 @@
          padding: 1px;
          font-size: 12px;
      }
-     
+
      #nav1icons i {
          display: flex;
          font-size: 20px;
          text-align: left;
      }
-     
-        #nav1iconsBlack i {
+
+     #nav1iconsBlack i {
          display: flex;
          font-size: 20px;
          text-align: left;
-            color: white;
+         color: white;
      }
 
      main {
@@ -275,7 +275,7 @@
          padding-right: 50px;
          padding-top: 75px;
      }
-     
+
 
      #aboutIcons {
          grid-column-start: 2;
