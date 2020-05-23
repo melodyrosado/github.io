@@ -253,20 +253,19 @@
      }
 
      #galleryDigitalSkills figure {
-         width: 10.7rem;
+         width: 6.7rem;
          text-align: center;
      }
 
      #galleryDigitalSkills figcaption {
          width: 6.7rem;
-         float: inherit;
          justify-content: center;
          color: yellow;
          font-size: .6rem;
      }
 
      #galleryDigitalSkills img {
-         width: 7rem;
+         width: 6.7rem;
          background-color: white;
          box-shadow: 0 .29rem .57rem 0 rgba(0, 0, 0, 0.2), 0 .43rem 1.43rem 0 rgba(0, 0, 0, 0.19);
          text-align: center;
@@ -277,9 +276,6 @@
      i {
          font-size: 12px;
      }
-
-
-
  }
 
  /* CSS for medium devices / Tablets */
