@@ -9,8 +9,7 @@
 
  @media screen and (max-width: 480px) {
 
-
-     #nav1Black a {
+#nav1Black a {
          display: block;
          grid-template-columns: 100%;
          padding: 1px;
