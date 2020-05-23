@@ -31,7 +31,13 @@
          height: 612px;
      }
 
-     #logo1,
+     #logo1 {
+         display: grid;
+         grid-template-columns: 100%;
+         grid-column-start: 1;
+         grid-row-start: 1;
+     }
+
      #logo2 {
          display: grid;
          grid-template-columns: 100%;
@@ -69,21 +75,21 @@
      #logo1 figure {
          display: grid;
          grid-column-start: 1;
-         grid-row-start: 1;
+         grid-row-start: 2;
          height: 150px;
          width: 200px;
+         text-align: center;
      }
 
      #logo1 img {
          height: 50%;
          width: 50%;
-         float: left;
      }
 
      #logo1 figcaption {
          display: grid;
          grid-column-start: 1;
-         height: 100px;
+         height: 50px;
          width: 200px;
          font-size: 10px;
      }
