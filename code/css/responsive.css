@@ -24,7 +24,7 @@
      }
      
      #nav1icons i {
-         display: inline-grid;;
+         display: flex;
          font-size: 20px;
          text-align: left;
      }
