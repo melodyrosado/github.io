@@ -17,10 +17,16 @@
      }
 
      #nav1 a {
-         display: block;
+         display: none;
          grid-template-columns: 100%;
          padding: 1px;
          font-size: 12px;
+     }
+     
+     #nav1icons i {
+         display: inline-grid;;
+         font-size: 20px;
+         text-align: left;
      }
 
      main {
