@@ -10,7 +10,7 @@
  @media screen and (max-width: 480px) {
 
      #nav1Black a {
-         display: block;
+         display: none;
          grid-template-columns: 100%;
          padding: 1px;
          font-size: 12px;
@@ -27,6 +27,13 @@
          display: flex;
          font-size: 20px;
          text-align: left;
+     }
+     
+        #nav1iconsBlack i {
+         display: flex;
+         font-size: 20px;
+         text-align: left;
+            color: white;
      }
 
      main {
@@ -265,8 +272,8 @@
      #contactIcons {
          grid-column-start: 2;
          grid-row-start: 1;
-         padding-right: 100px;
-         padding-top: 150px;
+         padding-right: 50px;
+         padding-top: 75px;
      }
      
 
