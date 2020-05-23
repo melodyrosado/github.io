@@ -161,11 +161,11 @@
 
      #galleryTypography {
          display: block;
-         grid-template-columns: 50% 50%;
+         grid-template-columns: 100%;
      }
 
      #galleryTypography figure {
-         width: 10.42rem;
+         width: 9.42rem;
 
      }
 
@@ -181,7 +181,8 @@
      #pdf,
      img {
          height: 100%;
-         width: 65%;
+         width: 55%;
+         background-color: yellow
      }
 
      .pdf p,
@@ -192,7 +193,6 @@
 
      .pdf a:hover {
          color: red;
-         width: 20rem;
      }
 
      #contactIcons,
