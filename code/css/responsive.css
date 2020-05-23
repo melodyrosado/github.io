@@ -68,7 +68,9 @@
      }
 
      #selfie img {
-         margin-left: 20px;
+         margin-left: 40px;
+         height: 80%;
+         width: auto
      }
 
      #logo1 figure {
