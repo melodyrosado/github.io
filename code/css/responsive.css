@@ -313,20 +313,6 @@
  /* CSS for medium devices / Tablets */
 
  @media screen and (min-width: 480px) and (max-width: 778px) {
-     
-      #nav1Black a {
-         display: block;
-         grid-template-columns: 100%;
-         padding: 1px;
-         font-size: 12px;
-     }
-
-     #nav1 a {
-         display: block;
-         grid-template-columns: 100%;
-         padding: 1px;
-         font-size: 12px;
-     }
 
      #nav1icons i {
          display: none;
@@ -340,26 +326,12 @@
          text-align: left;
          color: white;
      }
-     
-}
+
+ }
 
  /* CSS for large device/ Computers */
 
  @media screen and (min-width: 779px) {
-     
-     #nav1Black a {
-         display: block;
-         grid-template-columns: 100%;
-         padding: 1px;
-         font-size: 12px;
-     }
-
-     #nav1 a {
-         display: block;
-         grid-template-columns: 100%;
-         padding: 1px;
-         font-size: 12px;
-     }
 
      #nav1icons i {
          display: none;
@@ -373,5 +345,5 @@
          text-align: left;
          color: white;
      }
-     
-}
+
+ }
