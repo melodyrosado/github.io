@@ -1,4 +1,6 @@
-@media screen and (max-width: 480px) {
+/* iPhone x */
+
+@media screen and (max-width: 375px) {
 
     * {
         box-sizing: border-box;
@@ -30,7 +32,6 @@
         text-align: left;
         color: white;
     }
-
 
     body #wallpaper {
         margin: 0px;
@@ -151,13 +152,10 @@
         grid-template-columns: 100%;
     }
 
-    /*desktop 1440x900 */
-
     main {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 20% 20% 20% 20% 20%;
-        height: 812pt;
         width: 375pt;
         margin: auto;
     }
@@ -286,12 +284,23 @@
         grid-column: 1 / 3;
         grid-row: 3 / 4;
     }
+}
 
+/* MacBook Pro x 1440x900 */
 
+@media screen and (min-width: 376px) and (max-width: 900px) {
 
+    #nav1icons i {
+        display: none;
+        font-size: 30px;
+        text-align: left;
+    }
 
-
-
-
+    #nav1iconsWhite i {
+        display: none;
+        font-size: 30px;
+        text-align: left;
+        color: white;
+    }
 
 }
