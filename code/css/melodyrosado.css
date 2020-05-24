@@ -146,7 +146,7 @@ body {
 
 #logo1 img {
     height: 100%;
-    width: 50%;
+    width: 40%;
 }
 
 #logo2 img {
@@ -242,9 +242,8 @@ main {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    height: 64.3em;
-    width: 102.9em;
-    margin: auto;
+    height: 56.25em;
+    width: 90em;
 }
 
 #aboutIcons {
@@ -277,8 +276,8 @@ footer {
 }
 
 #logo1 {
-    grid-column: 1 / 3;
-    grid-row: 2 / 4;
+    grid-column: 1 / 6;
+    grid-row: 1 / 6;
 }
 
 #aboutMe {
