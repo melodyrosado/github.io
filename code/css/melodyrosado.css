@@ -66,6 +66,19 @@ a:link header {
     color: red;
 }
 
+#nav1icons i {
+    display: none;
+    font-size: 30px;
+    text-align: left;
+}
+
+#nav1iconsWhite i {
+    display: none;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+}
+
 #aboutIcons i {
     font-size: 3.2rem;
 }
