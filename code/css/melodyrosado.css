@@ -371,3 +371,20 @@ footer {
     grid-column: 2 / 4;
     grid-row: 4 / 6;
 }
+
+/* MacBook Pro x 1440x900 */
+
+@media screen and (min-width: 901px) {
+
+    #nav1icons i {
+        display: none;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    #nav1iconsWhite i {
+        display: none;
+        font-size: 30px;
+        text-align: left;
+        color: white;
+    }
