@@ -36,11 +36,15 @@
          color: white;
      }
 
+     /*iPhone X 375pt x 812pt or 1125px x 2436 px */
+
      main {
          display: grid;
-         grid-template-columns: 50% 50%;
-         grid-template-rows: 50% 50%;
-         height: 512px;
+         grid-template-columns: 100%;
+         grid-template-rows: 100%;
+         height: 812pt;
+         width: 375pt;
+         margin: auto;
      }
 
      #logo1 {

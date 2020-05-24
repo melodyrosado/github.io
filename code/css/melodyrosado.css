@@ -108,16 +108,14 @@ footer {
     box-sizing: border-box;
 }
 
-html #wallpaper {
+body #wallpaper {
     max-width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: scroll;
-    background-origin: content-box;
+    background-attachment: fixed;
 }
 
 body {
@@ -258,9 +256,9 @@ main {
 
 #aboutIcons {
     display: grid;
-    grid-template-columns: 33% 33% 33% ;
+    grid-template-columns: 33% 33% 33%;
     grid-column: 2 / 3;
-    grid-row:  4 / 5;
+    grid-row: 4 / 5;
     text-align: center;
 }
 
@@ -272,7 +270,7 @@ main {
 }
 
 #contactIcons {
-   display: grid;
+    display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-column: 4 / 5;
     grid-row: 3 / 4;
@@ -321,7 +319,7 @@ footer {
 #galleryDigitalSkills {
     grid-column: 4 / 6;
     grid-row: 2 / 6;
-    
+
 }
 
 #galleryDigitalSkills figure {
@@ -329,7 +327,7 @@ footer {
 }
 
 #galleryDigitalSkills figcaption {
-    
+
     text-align: center;
 
     color: yellow;
