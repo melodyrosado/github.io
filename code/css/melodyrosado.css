@@ -32,7 +32,6 @@ a:link header {
     text-decoration: none;
     color: white;
     padding-top: 10px;
-
     padding-bottom: 100px;
 }
 
@@ -109,8 +108,7 @@ footer {
 }
 
 body #wallpaper {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%;    
     margin: auto;
     background-size: cover;
     background-repeat: no-repeat;
@@ -163,11 +161,6 @@ body {
     text-align: left;
 }
 
-
-
-
-
-
 /* box model */
 
 #nav1 #nav1Black {
@@ -189,13 +182,6 @@ body {
     text-align: justify;
 }
 
-#profile {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
 #aboutIcons,
 #visualMediaIcons,
 #digitalSkillsIcons,
@@ -206,8 +192,8 @@ body {
 #monogram {
     display: inline-flex;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-column-start: 2;
-    grid-row-start: 4;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
 }
 
 #galleryTypography {
@@ -224,12 +210,6 @@ body {
     color: orange;
 
 }
-
-
-
-
-
-
 
 footer {
     padding: .571rem;
@@ -251,7 +231,6 @@ main {
     height: 64.3em;
     width: 102.9em;
     margin: auto;
-
 }
 
 #aboutIcons {
@@ -298,9 +277,6 @@ footer {
     grid-row: 3 / 5;
     margin: auto;
     text-align: center;
-
-
-
 }
 
 #selfie img {
@@ -327,9 +303,7 @@ footer {
 }
 
 #galleryDigitalSkills figcaption {
-
     text-align: center;
-
     color: yellow;
 }
 
@@ -341,8 +315,6 @@ footer {
     padding: .714rem 1.43rem;
 }
 
-
-
 #galleryMixedMedia {
     grid-column: 4 / 6;
     grid-row: 1 / 6;
@@ -353,7 +325,6 @@ footer {
     padding: 1%;
     text-align: justify;
     font-size: .75rem;
-
     color: lightseagreen;
     text-align: left;
 }
@@ -373,7 +344,6 @@ footer {
     grid-column: 4 / 5;
     grid-row: 1 / 5;
     padding-top: 20%;
-
 }
 
 #galleryBrands {
@@ -381,7 +351,6 @@ footer {
     grid-row: 1 / 5;
     grid-column: 4 / 6;
     padding-top: 10%;
-    ;
 }
 
 #visualMediaIcons,
