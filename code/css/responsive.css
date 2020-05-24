@@ -1,6 +1,6 @@
 /* iPhone x */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
 
     * {
         box-sizing: border-box;
@@ -292,7 +292,7 @@
 
 /* MacBook Pro x 1440x900 */
 
-@media screen and (min-width: 376px) and (max-width: 900px) {
+@media screen and (min-width: 481px) and (max-width: 900px) {
 
     #nav1icons i {
         display: none;
