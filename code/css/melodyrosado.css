@@ -25,6 +25,7 @@ h1 {
 h2 {
     font-size: 1rem;
     font-weight: 100;
+    
 }
 
 h3 {font-size: 1rem;
@@ -51,11 +52,11 @@ a:link header {
 }
 
 #nav1 a:hover {
-    color: red;
+    color: indianred;
 }
 
 #nav1Black a:hover {
-    color: red;
+    color: indianred;
 }
 
 #nav2 a {
@@ -71,18 +72,18 @@ a:link header {
 }
 
 #nav2 a:hover {
-    color: red;
+    color: indianred;
 }
 
 #nav1icons i {
     display: none;
-    font-size: 30px;
+    font-size: .47rem;
     text-align: left;
 }
 
 #nav1iconsWhite i {
     display: none;
-    font-size: 30px;
+    font-size: 47rem;
     text-align: left;
     color: white;
 }
