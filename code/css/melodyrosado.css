@@ -25,14 +25,15 @@ h1 {
 h2 {
     font-size: 1rem;
     font-weight: 100;
-    
+
 }
 
-h3 {font-size: 1rem;
+h3 {
+    font-size: 1rem;
     font-weight: 400;
     font-family: 'Lexend Deca', sans-serif;
     color: indianred;
-    
+
 }
 
 #nav1 a,
@@ -198,6 +199,7 @@ body {
 #profile {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+    padding-left: 50px;
 }
 
 #profile {
@@ -245,14 +247,14 @@ header {
     grid-template-columns: 100%;
 }
 
-/*desktop 1440x900 */
+/*macbook pro retina 2560x1600*/
 
 main {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    height: 64.3em;
-    width: 102.9em;
+    height: 100em;
+    width: 160em;
     margin: auto;
 }
 
@@ -260,8 +262,9 @@ main {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-column: 2 / 3;
-    grid-row: 4 / 5;
-    text-align: center;
+    grid-row: 2 / 3;
+    width: 60%;
+    
 }
 
 #visualMediaIcons,
@@ -272,10 +275,10 @@ main {
 }
 
 #contactIcons {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-column: 4 / 5;
-    grid-row: 3 / 4;
+    display: inline-block;
+    width: 60%;
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
     text-align: center;
 }
 
@@ -286,7 +289,7 @@ footer {
 }
 
 #logo1 {
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
     grid-row: 1 / 6;
 }
 
@@ -296,14 +299,14 @@ footer {
 }
 
 #selfie {
-    grid-column: 5 / 6;
-    grid-row: 3 / 5;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
     margin: auto;
     text-align: center;
 }
 
 #selfie img {
-    width: 70%;
+    width: 60%;
     height: auto;
     border-radius: 6%;
     justify-content: center;
@@ -311,7 +314,7 @@ footer {
 
 #monogram {
     grid-column: 2 / 3;
-    grid-row: 4 / 5;
+    grid-row: 2 / 3;
     margin: auto;
 }
 
@@ -378,8 +381,8 @@ footer {
 
 #visualMediaIcons,
 #digitalSkillsIcons {
-    grid-column: 2 / 4;
-    grid-row: 4 / 6;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
 
 /* MacBook Pro x 1440x900 */
