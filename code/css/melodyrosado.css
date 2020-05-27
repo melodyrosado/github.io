@@ -27,6 +27,13 @@ h2 {
     font-weight: 100;
 }
 
+h3 {font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    color: indianred;
+    
+}
+
 #nav1 a,
 a:visited,
 a:link header {
@@ -147,7 +154,7 @@ body {
 
 #logo1 img {
     height: 100%;
-    width: 40%;
+    width: 30%;
 }
 
 #logo2 img {
