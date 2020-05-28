@@ -67,7 +67,7 @@ iPhone 8 375x667
     }
 
     .brands {
-        background-image: url(../../assets/images/GitHub/BrandsMobile.jpg);
+        background-image: url(../../assets/images/GitHub/brandsMobile.jpg);
     }
 
     .mixedMedia {
@@ -87,7 +87,7 @@ iPhone 8 375x667
     }
     
     .contact {
-        background-image: url(../../assets/images/GitHub/ContactMobile.jpg);
+        background-image: url(../../assets/images/GitHub/contactMobilev2.jpg);
     }
 
     body {
@@ -252,6 +252,7 @@ iPhone 8 375x667
     #selfie {
         grid-column: 2 / 3;
         grid-row: 3 / 4;
+        padding-top: 2.5em;
     }
 
     #selfie img {
@@ -273,16 +274,17 @@ iPhone 8 375x667
     }
 
     #galleryDigitalSkills figure {
-        width: 24em;
+        width: 18.75em;
     }
 
     #galleryDigitalSkills figcaption {
         text-align: center;
         color: yellow;
+        width: 18.75em;
     }
 
     #galleryDigitalSkills img {
-        width: 24em;
+        width: 18.75em;
         background-color: white;
         box-shadow: 0 .29rem .57rem 0 rgba(0, 0, 0, 0.2), 0 .43rem 1.43rem 0 rgba(0, 0, 0, 0.19);
         text-align: center;
