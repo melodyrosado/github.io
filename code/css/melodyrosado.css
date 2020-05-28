@@ -286,8 +286,8 @@ main {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    height: 100em;
-    width: 160em;
+    height: 43.75em;
+    width: 72em;
     margin: auto;
 }
 
@@ -418,7 +418,10 @@ footer {
     grid-row: 2 / 3;
 }
 
-/* MacBook Pro x 1440x900 */
+/* 
+MacBook Pro x 1440x900
+MacBook x 1152x700
+*/
 
 @media screen and (min-width: 901px) {
 

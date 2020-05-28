@@ -1,4 +1,7 @@
-/* iPhone X */
+/* 
+iPhone X 375x812
+iPhone 8 375x667
+*/
 
 @media screen and (max-width: 480px) {
 
@@ -80,7 +83,7 @@
     }
 
     .digitalSkills {
-        background-image: url(../../assets/images/GitHub/VisualMediaMobile.jpg);
+        background-image: url(../../assets/images/GitHub/DigitalSkillsMobile.jpg);
     }
     
     .contact {
@@ -193,7 +196,7 @@
         display: grid;
         grid-template-columns: 50% 50%;
         width: 23.4375em;
-        height: 53.3em;
+        height: 41.6875em;
         margin: auto;
     }
 
