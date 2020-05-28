@@ -145,6 +145,38 @@ body #wallpaper {
     background-image: url(../../assets/images/GitHub/DarkHome.jpg)
 }
 
+    .about {
+        background-image: url(../../assets/images/GitHub/DarkAbout.jpg)
+    }
+    
+    .design {
+        background-image: url(../../assets/images/GitHub/DarkDesign.jpg)
+    }
+
+    .brands {
+        background-image: url(../../assets/images/GitHub/DarkBrands.jpg)
+    }
+
+    .mixedMedia {
+        background-image: url(../../assets/images/GitHub/DarkMixedMedia.jpg)
+    }
+
+    .typography {
+        background-image: url(../../assets/images/GitHub/DarkTypography.jpg)
+    }
+
+    .visualMedia {
+        background-image: url(../../assets/images/GitHub/DarkVisualMedia.jpg)
+    }
+
+    .digitalSkills {
+        background-image: url(../../assets/images/GitHub/DarkDigitalSkills.jpg)
+    }
+
+    .contact {
+        background-image: url(../../assets/images/GitHub/DarkContact.jpg)
+    }
+
 body {
     background-color: black;
     color: white;
