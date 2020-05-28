@@ -16,15 +16,15 @@ iPhone 8 375x667
     #nav1Black a {
         display: none;
         grid-template-columns: 100%;
-        padding: 1px;
-        font-size: 12px;
+        padding: 0.0625em;
+        font-size: 0.75em;
     }
 
     #nav1 a {
         display: none;
         grid-template-columns: 100%;
-        padding: 1px;
-        font-size: 12px;
+        padding: 0.0625em;
+        font-size: 0.75em;
     }
 
     #nav1icons i,
@@ -38,7 +38,7 @@ iPhone 8 375x667
     #nav1iconsWhite i,
     a:visited {
         display: flex;
-        font-size: 30px;
+        font-size: 1.875em;
         text-align: left;
         color: white;
     }
@@ -87,7 +87,7 @@ iPhone 8 375x667
     }
     
     .contact {
-        background-image: url(../../assets/images/GitHub/ContactMobile.jpg);
+        background-image: url(../../assets/images/GitHub/shadows.jpg);
     }
 
     body {

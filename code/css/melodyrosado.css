@@ -145,37 +145,37 @@ body #wallpaper {
     background-image: url(../../assets/images/GitHub/DarkHome.jpg)
 }
 
-    .about {
-        background-image: url(../../assets/images/GitHub/DarkAbout.jpg);
-    }
-    
-    .design {
-        background-image: url(../../assets/images/GitHub/DarkDesign.jpg);
-    }
+.about {
+    background-image: url(../../assets/images/GitHub/DarkAbout.jpg);
+}
 
-    .brands {
-        background-image: url(../../assets/images/GitHub/DarkBrands.jpg);
-    }
+.design {
+    background-image: url(../../assets/images/GitHub/DarkDesign.jpg);
+}
 
-    .mixedMedia {
-        background-image: url(../../assets/images/GitHub/DarkMixedMedia.jpg);
-    }
+.brands {
+    background-image: url(../../assets/images/GitHub/DarkBrands.jpg);
+}
 
-    .typography {
-        background-image: url(../../assets/images/GitHub/DarkTypography.jpg);
-    }
+.mixedMedia {
+    background-image: url(../../assets/images/GitHub/DarkMixedMedia.jpg);
+}
 
-    .visualMedia {
-        background-image: url(../../assets/images/GitHub/DarkVisualMedia.jpg);
-    }
+.typography {
+    background-image: url(../../assets/images/GitHub/DarkTypography.jpg);
+}
 
-    .digitalSkills {
-        background-image: url(../../assets/images/GitHub/DarkDigitalSkills.jpg);
-    }
+.visualMedia {
+    background-image: url(../../assets/images/GitHub/DarkVisualMedia.jpg);
+}
 
-    .contact {
-        background-image: url(../../assets/images/GitHub/DarkContact.jpg);
-    }
+.digitalSkills {
+    background-image: url(../../assets/images/GitHub/DarkDigitalSkills.jpg);
+}
+
+.contact {
+    background-image: url(../../assets/images/GitHub/DarkContact.jpg);
+}
 
 body {
     background-color: black;
