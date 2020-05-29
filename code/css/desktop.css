@@ -5,7 +5,7 @@ iMac 1280 x 720
 
 */
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 701px) {
 
     * {
         box-sizing: border-box;
@@ -159,12 +159,15 @@ iMac 1280 x 720
         display: block;
         grid-template-columns: 100%;
     }
+    
+    /* iMac 1280 x 720 */
 
     main {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 20% 20% 20% 20% 20%;
         grid-template-rows: 20% 20% 20% 20% 20%;
-        width: 30em;
+        width: 45em;
+        height: 80em;
         margin: auto;
     }
 
