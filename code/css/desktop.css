@@ -1,8 +1,7 @@
 /* 
-iPhone 11 Pro Max 414 x 896
-iPhone 11 Pro / X 375 x 812
-iPhone 8 375 x 667
-
+MacBook  1152 x 700
+Macbook Pro 1440 x 900
+iMac 1280 x 720
 
 */
 
@@ -11,37 +10,35 @@ iPhone 8 375 x 667
     * {
         box-sizing: border-box;
     }
-
+    
     a {
-        text-decoration: none;
+        text-decoration: none;    
     }
-
+    
     #nav1Black a {
         display: none;
         grid-template-columns: 100%;
-        padding: 0.0625em;
-        font-size: 0.75em;
+        padding: 1px;
+        font-size: 12px;
     }
 
     #nav1 a {
         display: none;
         grid-template-columns: 100%;
-        padding: 0.0625em;
-        font-size: 0.75em;
+        padding: 1px;
+        font-size: 12px;
     }
 
-    #nav1icons i,
-    a:visited {
+    #nav1icons i, a:visited {
         display: flex;
-        font-size: 1.875em;
+        font-size: 30px;
         text-align: left;
         color: black;
     }
 
-    #nav1iconsWhite i,
-    a:visited {
+    #nav1iconsWhite i, a:visited {
         display: flex;
-        font-size: 1.875em;
+        font-size: 30px;
         text-align: left;
         color: white;
     }
@@ -57,45 +54,12 @@ iPhone 8 375 x 667
         background-attachment: fixed;
     }
 
-    .index {
-        background-image: url(../../assets/images/GitHub/homeMobile.jpg);
-    }
-
-    .about {
-        background-image: url(../../assets/images/GitHub/AboutMobile.jpg);
-    }
-
-    .design {
-        background-image: url(../../assets/images/GitHub/DesignMobile.jpg);
-    }
-
-    .brands {
-        background-image: url(../../assets/images/GitHub/brandsMobilev2.jpg);
-    }
-
-    .mixedMedia {
-        background-image: url(../../assets/images/GitHub/MixedMediaMobile.jpg);
-    }
-
-    .typography {
-        background-image: url(../../assets/images/GitHub/TypographyMobile.jpg);
-    }
-
-    .visualMedia {
-        background-image: url(../../assets/images/GitHub/VisualMediaMobile.jpg);
-    }
-
-    .digitalSkills {
-        background-image: url(../../assets/images/GitHub/DigitalSkillsMobile.jpg);
-    }
-    
-    .contact {
-        background-image: url(../../assets/images/GitHub/contactMobilev2.jpg);
-    }
-
     body {
         background-color: black;
         color: white;
+    }
+
+    #logo1 figure {
     }
 
     #logo1 figcaption {
@@ -104,14 +68,13 @@ iPhone 8 375 x 667
 
     #logo1 img {
         height: 100%;
-        width: 100%;
+        width: 50%;
     }
 
     #logo2 img {
         display: flex;
-        flex-wrap: wrap;
-        height: 100%;
-        width: 100%;
+        flex-wrap: wrap
+
     }
 
     #monogram img {
@@ -147,12 +110,14 @@ iPhone 8 375 x 667
     }
 
     #profile {
-        grid-column: 1 / 3;
-        grid-row: 1 / 3;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0p;x
+    }
+
+    #profile {
+        text-align: justify;
         margin: auto;
-        justify-content: center;
-        width: 100%;
-        padding: 0.3125em;
     }
 
     #aboutIcons,
@@ -194,26 +159,23 @@ iPhone 8 375 x 667
         display: block;
         grid-template-columns: 100%;
     }
-    
-     /* width 375px height 667px  */
 
     main {
         display: grid;
         grid-template-columns: 50% 50%;
-        width: 23.4375em;
-        height: 41.6875em;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        width: 30em;
         margin: auto;
     }
 
     #aboutIcons {
         display: grid;
-        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-columns: 25% 25% 25% ;
         grid-column: 1 / 3;
-        grid-row: 4 / 5;
+        grid-row: 5 / 6;
         text-align: center;
-        padding-top: 100px;
     }
-
+    
     #aboutIcons i {
         color: black;
     }
@@ -226,16 +188,16 @@ iPhone 8 375 x 667
     }
 
     #contactIcons {
-        display: inline-flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 35% 35% 35% ;
         grid-column: 2 / 3;
         grid-row: 1 / 3;
         text-align: center;
+        padding-left: 
     }
-
-    #contactIcons i {
-        font-size: 3rem;
-        margin-right: .5rem;
+    
+    #contactIcons  i {
+        font-size: 2rem;
     }
 
     footer {
@@ -245,8 +207,8 @@ iPhone 8 375 x 667
     }
 
     #logo1 {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+        grid-row:  / 6;
     }
 
     #aboutMe {
@@ -257,7 +219,6 @@ iPhone 8 375 x 667
     #selfie {
         grid-column: 2 / 3;
         grid-row: 3 / 4;
-        padding-top: 2.5em;
     }
 
     #selfie img {
@@ -268,7 +229,7 @@ iPhone 8 375 x 667
     }
 
     #monogram {
-        grid-column: 1 /;
+        grid-column: 1 / ;
         grid-row: 3 / 4;
         margin: auto;
     }
@@ -279,17 +240,16 @@ iPhone 8 375 x 667
     }
 
     #galleryDigitalSkills figure {
-        width: 18.75em;
+        width: 24em;
     }
 
     #galleryDigitalSkills figcaption {
         text-align: center;
         color: yellow;
-        width: 18.75em;
     }
 
     #galleryDigitalSkills img {
-        width: 18.75em;
+        width: 24em;
         background-color: white;
         box-shadow: 0 .29rem .57rem 0 rgba(0, 0, 0, 0.2), 0 .43rem 1.43rem 0 rgba(0, 0, 0, 0.19);
         text-align: center;
@@ -337,9 +297,45 @@ iPhone 8 375 x 667
         grid-column: 1 / 3;
         grid-row: 2 / 6;
     }
-
+    
     #digitalSkillsIcons {
         grid-column: 1 / 3;
         grid-row: 5 / 6;
     }
+}
+
+/* MacBook Pro x 1440x900 */
+
+@media screen and (min-width: 481px) and (max-width:900px) {
+
+    #nav1icons i {
+        display: none;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    #nav1iconsWhite i {
+        display: none;
+        font-size: 30px;
+        text-align: left;
+        color: white;
+    }
+
+/* MacBook Pro x 1440x900 */
+
+@media screen and (min-width: 901px) {
+
+    #nav1icons i {
+        display: none;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    #nav1iconsWhite i {
+        display: none;
+        font-size: 30px;
+        text-align: left;
+        color: white;
+    }
+
 }
