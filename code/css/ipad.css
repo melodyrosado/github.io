@@ -10,13 +10,13 @@ iPad Pro 12.9 1024 x 1366
 
     #nav1icons i {
         display: none;
-        font-size: 30px;
+        font-size: 1.875em;
         text-align: left;
     }
 
     #nav1iconsWhite i {
         display: none;
-        font-size: 30px;
+        font-size: 1.875em;
         text-align: left;
         color: white;
     }
@@ -32,21 +32,21 @@ iPad Pro 12.9 1024 x 1366
     #nav1Black a {
         display: inline;
         grid-template-columns: 100%;
-        padding: 1px;
-        font-size: 12px;
+        padding: 0.0625em;
+        font-size: 0.75em;
     }
 
     #nav1 a {
         display: inline;
         grid-template-columns: 100%;
-        padding: 1px;
-        font-size: 12px;
+        padding: 0.0625em;
+        font-size: 0.75em;
     }
 
     #nav1icons i,
     a:visited {
         display: none;
-        font-size: 30px;
+        font-size: 0.75em;
         text-align: left;
         color: black;
     }
@@ -54,14 +54,14 @@ iPad Pro 12.9 1024 x 1366
     #nav1iconsWhite i,
     a:visited {
         display: none;
-        font-size: 30px;
+        font-size: 1.875em;
         text-align: left;
         color: white;
     }
 
     html #wallpaper {
-        margin: 0px;
-        padding: 0px;
+        margin: 0em;
+        padding: 0em;
         max-width: 100%;
         margin: auto;
         background-size: cover;
@@ -205,7 +205,7 @@ iPad Pro 12.9 1024 x 1366
     footer {
         display: block;
         grid-template-columns: 100%;
-        padding: 5px;
+        padding: 0.3125em;
     }
 
     #logo1 {

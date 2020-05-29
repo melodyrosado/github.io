@@ -18,34 +18,34 @@ iMac 1280 x 720
     #nav1Black a {
         display: none;
         grid-template-columns: 100%;
-        padding: 1px;
-        font-size: 12px;
+        padding: 0.0625em;
+        font-size: 0.75em;
     }
 
     #nav1 a {
         display: none;
         grid-template-columns: 100%;
-        padding: 1px;
-        font-size: 12px;
+        padding: 0.0625em;
+        font-size: 0.75em;
     }
 
     #nav1icons i, a:visited {
         display: flex;
-        font-size: 30px;
+        font-size: 1.875em;
         text-align: left;
         color: black;
     }
 
     #nav1iconsWhite i, a:visited {
         display: flex;
-        font-size: 30px;
+        font-size: 1.875em;
         text-align: left;
         color: white;
     }
 
     body #wallpaper {
-        margin: 0px;
-        padding: 0px;
+        margin: 0em;
+        padding: 0em;
         max-width: 100%;
         margin: auto;
         background-size: cover;
@@ -203,7 +203,7 @@ iMac 1280 x 720
     footer {
         display: block;
         grid-template-columns: 100%;
-        padding: 5px;
+        padding: 0.3125em;
     }
 
     #logo1 {
@@ -249,7 +249,7 @@ iMac 1280 x 720
     }
 
     #galleryDigitalSkills img {
-        width: 24em;
+        width: 100%;
         background-color: white;
         box-shadow: 0 .29rem .57rem 0 rgba(0, 0, 0, 0.2), 0 .43rem 1.43rem 0 rgba(0, 0, 0, 0.19);
         text-align: center;
@@ -310,13 +310,13 @@ iMac 1280 x 720
 
     #nav1icons i {
         display: none;
-        font-size: 30px;
+        font-size: 1.875em;
         text-align: left;
     }
 
     #nav1iconsWhite i {
         display: none;
-        font-size: 30px;
+        font-size: 1.875em;
         text-align: left;
         color: white;
     }
@@ -327,13 +327,13 @@ iMac 1280 x 720
 
     #nav1icons i {
         display: none;
-        font-size: 30px;
+        font-size: 1.875em;
         text-align: left;
     }
 
     #nav1iconsWhite i {
         display: none;
-        font-size: 30px;
+        font-size: 1.875em;
         text-align: left;
         color: white;
     }
