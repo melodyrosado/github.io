@@ -86,7 +86,7 @@ iPhone 8 375 x 667
     .digitalSkills {
         background-image: url(../../assets/images/GitHub/DigitalSkillsMobile.jpg);
     }
-    
+
     .contact {
         background-image: url(../../assets/images/GitHub/contactMobilev2.jpg);
     }
@@ -192,8 +192,8 @@ iPhone 8 375 x 667
         display: block;
         grid-template-columns: 100%;
     }
-    
-     /* width 375px height 667px  */
+
+    /* width 375px height 667px  */
 
     main {
         display: grid;
@@ -224,10 +224,10 @@ iPhone 8 375 x 667
     }
 
     #contactIcons {
-        display: inline-flex;
-        flex-direction: row;
-        grid-column: 2 / 3;
-        grid-row: 1 / 3;
+        display: inline-block;
+        width: 15em;
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
         text-align: center;
     }
 
