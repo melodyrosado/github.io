@@ -4,7 +4,7 @@ iPhone 11 Pro / X 375 x 812
 iPhone 8 375 x 667
 */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
 
     * {
         box-sizing: border-box;
